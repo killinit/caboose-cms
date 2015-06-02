@@ -39,7 +39,8 @@ Gem::Specification.new do |s|
   s.executables = ["caboose"]
 
   # Production  
-  s.add_dependency "pg"
+  # s.add_dependency "pg"
+  s.add_dependency "mysql2"
   s.add_dependency "rails", "~> 3.2.13"
   s.add_dependency "underscore-rails"
   s.add_dependency "jquery-rails", "~> 3.1.1"
